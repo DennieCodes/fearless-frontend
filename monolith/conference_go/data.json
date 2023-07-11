@@ -1,1 +1,376 @@
-[{"model":"accounts.user","fields":{"password":"pbkdf2_sha256$320000$2BsTIrakB585ujJ29Hm6Fu$EaflD02L5dK6zpxL6u82niPhLyOHRIgeAT/HJaTTiOo=","last_login":"2022-04-11T11:00:49.008Z","is_superuser":true,"username":"admin","first_name":"","last_name":"","email":"","is_staff":true,"is_active":true,"date_joined":"2022-04-11T11:00:37.351Z","groups":[],"user_permissions":[]}},{"model":"events.location","pk":1,"fields":{"name":"McCormickPlace","city":"Chicago","room_count":55,"created":"2022-04-11T11:25:28.489Z","updated":"2022-04-11T11:25:28.489Z","state":14}},{"model":"events.location","pk":2,"fields":{"name":"OrangeCountyConventionCenter","city":"Orlando","room_count":54,"created":"2022-04-11T11:25:52.636Z","updated":"2022-04-11T11:25:52.636Z","state":10}},{"model":"events.location","pk":3,"fields":{"name":"LasVegasConventionCenter","city":"LasVegas","room_count":55,"created":"2022-04-11T11:26:08.900Z","updated":"2022-04-11T11:26:08.900Z","state":23}},{"model":"events.location","pk":4,"fields":{"name":"GeorgiaWorldCongressCenter","city":"Altlanta","room_count":50,"created":"2022-04-11T11:26:25.978Z","updated":"2022-04-11T11:26:25.978Z","state":11}},{"model":"events.location","pk":5,"fields":{"name":"NewOrleansMorialConventionCenter","city":"NewOrleans","room_count":52,"created":"2022-04-11T11:26:42.465Z","updated":"2022-04-11T11:26:42.465Z","state":19}},{"model":"events.location","pk":6,"fields":{"name":"America'sCenter","city":"St.Louis","room_count":49,"created":"2022-04-11T11:27:00.425Z","updated":"2022-04-11T11:27:00.425Z","state":38}},{"model":"events.location","pk":7,"fields":{"name":"SanDiegoConventionCenter","city":"SanDiego","room_count":48,"created":"2022-04-11T11:27:15.605Z","updated":"2022-04-11T11:27:15.605Z","state":5}},{"model":"events.location","pk":8,"fields":{"name":"ColoradoConventionCenter","city":"Denver","room_count":47,"created":"2022-04-11T11:27:31.906Z","updated":"2022-04-11T11:27:31.906Z","state":6}},{"model":"events.location","pk":9,"fields":{"name":"MusicCityCenter","city":"Nashville","room_count":44,"created":"2022-04-11T11:27:43.328Z","updated":"2022-04-11T11:27:43.328Z","state":43}},{"model":"events.location","pk":10,"fields":{"name":"KayBaileyHutchisonConventionCenter","city":"Dallas","room_count":48,"created":"2022-04-11T11:28:03Z","updated":"2022-04-11T11:28:03Z","state":44}},{"model":"events.location","pk":11,"fields":{"name":"MosconeConventionCenter","city":"SanFrancisco","room_count":40,"created":"2022-04-11T11:28:17.118Z","updated":"2022-04-11T11:28:17.118Z","state":5}},{"model":"events.location","pk":12,"fields":{"name":"CharlotteConventionCenter","city":"Charlotte","room_count":33,"created":"2022-04-11T11:28:37.233Z","updated":"2022-04-11T11:28:37.233Z","state":28}},{"model":"events.location","pk":13,"fields":{"name":"TampaConventionCenter","city":"Tampa","room_count":33,"created":"2022-04-11T11:28:48.119Z","updated":"2022-04-11T11:28:48.119Z","state":10}},{"model":"events.location","pk":14,"fields":{"name":"HynesConventionCenter","city":"Boston","room_count":30,"created":"2022-04-11T11:29:00.367Z","updated":"2022-04-11T11:29:00.367Z","state":34}},{"model":"events.location","pk":15,"fields":{"name":"WisconsinCenter","city":"Milwaukee","room_count":29,"created":"2022-04-11T11:29:21.428Z","updated":"2022-04-11T11:29:21.428Z","state":50}},{"model":"events.location","pk":16,"fields":{"name":"RolandE.PowellConventionCenter","city":"OceanCity","room_count":28,"created":"2022-04-11T11:29:37.738Z","updated":"2022-04-11T11:29:37.738Z","state":33}},{"model":"events.conference","pk":1,"fields":{"name":"OracleDeveloperLive","starts":"2022-03-22T00:00:00Z","ends":"2022-03-24T23:59:59Z","description":"OracleDeveloperLiveisaseriesoffreevirtualeventsthatfeaturekeynotes,technicalsessions,hands-onlabs,demos,andpanelsandparticipationinaliveQ&Awithexperts.SubjectmatterexpertsfromtheJavaPlatformGroupatOraclewilldelivertechnicalcontentthathelpsdeveloperscreatethenextgenerationofrich,scalable,andsecureenterpriseapplicationsforawidevarietyofenvironments.","created":"2022-04-11T11:32:05.303Z","updated":"2022-04-11T11:34:06.152Z","max_presentations":100,"max_attendees":15000,"location":11}},{"model":"events.conference","pk":2,"fields":{"name":"MicrosoftIgnite","starts":"2022-04-21T00:00:00Z","ends":"2022-04-24T23:59:59Z","description":"TheMicrosoftIgniteconferenceisMicrosoft’sannualmeetingspecificallyforenterpriseprofessionals,services,andproductsIgniteoffersits25,000+attendeespriorityaccesstotechnicaltraining,newandinnovativetools,andopportunitiestonetworkwithpeersandexpertsinthetechcommunity.","created":"2022-04-11T11:32:59.035Z","updated":"2022-04-11T11:34:11.825Z","max_presentations":140,"max_attendees":30000,"location":4}},{"model":"events.conference","pk":3,"fields":{"name":"DEVintersection","starts":"2022-04-05T00:00:00Z","ends":"2022-04-07T23:59:59Z","description":"DEVintersectionisanannualconferenceledbytopMicrosoftexpertsastheydivedeepintonewsoftwaredevelopmentsanditsintersectionwithtechnology.Featuring100+in-depthsessionspresentedbyMicrosoftengineersandotherindustryleaders,the2022conferencewillcovertopicssuchasAzure,SQLServer,AI,BigData,MachineLearning,andmore.","created":"2022-04-11T11:34:00.678Z","updated":"2022-04-11T11:34:00.678Z","max_presentations":120,"max_attendees":25000,"location":9}},{"model":"events.conference","pk":4,"fields":{"name":"DrupalCon","starts":"2022-04-25T00:00:00Z","ends":"2022-04-28T23:59:59Z","description":"DrupalConistheinternationaleducationaleventthatunitesthepeoplewhouse,develop,designandsupporttheDrupalplatform.ItisthepremiereconferencetohoneyourDrupalskills,connectwiththecommunity,andlearnaboutthefutureofwebtechnologieshappeningwithDrupal.","created":"2022-04-11T11:34:49.911Z","updated":"2022-04-11T11:34:49.911Z","max_presentations":80,"max_attendees":10000,"location":10}},{"model":"events.conference","pk":5,"fields":{"name":"UXDX2022","starts":"2022-05-24T00:00:00Z","ends":"2022-05-26T23:59:59Z","description":"UXDX,thefastest-growingproductdevelopmentconferenceinEurope,ishostingitsinauguralUXDXUSAconferenceinMay2022alongwitheventsinAPACinJuneandEMEAinOctober.ThemissionofUXDXUSAistodeliverrealchangeinteams,helpingyoutakeafull-systemsviewofsoftwaredevelopment.","created":"2022-04-11T11:35:41.141Z","updated":"2022-04-11T11:35:41.141Z","max_presentations":60,"max_attendees":10000,"location":3}},{"model":"events.conference","pk":6,"fields":{"name":"OpenSourceSummit","starts":"2022-06-21T00:00:00Z","ends":"2022-06-24T23:59:59Z","description":"OpenSourceSummitisNorthAmericaandEurope’spremiervendor-neutralconferenceforopensourcedevelopersandtechnologiststocollaborate,shareinformation,andlearnaboutthelatesttechnologiesandinnovationsacrossopensource.","created":"2022-04-11T11:36:21.783Z","updated":"2022-04-11T11:36:21.783Z","max_presentations":80,"max_attendees":8000,"location":7}},{"model":"events.conference","pk":7,"fields":{"name":"DevOpsCon","starts":"2022-09-27T00:00:00Z","ends":"2022-09-30T23:59:59Z","description":"DevOpsConisnotedas“TheConference”forContinuousDelivery,Microservices,Docker,Clouds,andLeanBusiness.DevOpsConisheldinbothGermanandEnglish.Thisyear’seventisagainhybrid,soit’syourchoicewhethertoattendonlineorinpersoninNewYork.","created":"2022-04-11T11:36:56.878Z","updated":"2022-04-11T11:36:56.878Z","max_presentations":60,"max_attendees":8000,"location":13}},{"model":"contenttypes.contenttype","fields":{"app_label":"accounts","model":"user"}},{"model":"contenttypes.contenttype","fields":{"app_label":"attendees","model":"attendee"}},{"model":"contenttypes.contenttype","fields":{"app_label":"attendees","model":"badge"}},{"model":"contenttypes.contenttype","fields":{"app_label":"events","model":"state"}},{"model":"contenttypes.contenttype","fields":{"app_label":"events","model":"location"}},{"model":"contenttypes.contenttype","fields":{"app_label":"events","model":"conference"}},{"model":"contenttypes.contenttype","fields":{"app_label":"presentations","model":"status"}},{"model":"contenttypes.contenttype","fields":{"app_label":"presentations","model":"presentation"}},{"model":"contenttypes.contenttype","fields":{"app_label":"admin","model":"logentry"}},{"model":"contenttypes.contenttype","fields":{"app_label":"auth","model":"permission"}},{"model":"contenttypes.contenttype","fields":{"app_label":"auth","model":"group"}},{"model":"contenttypes.contenttype","fields":{"app_label":"contenttypes","model":"contenttype"}},{"model":"contenttypes.contenttype","fields":{"app_label":"sessions","model":"session"}},{"model":"sessions.session","pk":"ianvxef54ni5u9iy6zx5b5ae7de4fev0","fields":{"session_data":".eJxVjEEOwiAQRe_C2pBCgaEu3fcMzQwzStVAUtqV8e7apAvd_vfef6kJtzVPW5NlmlmdlVGn340wPaTsgO9YblWnWtZlJr0r-qBNj5XleTncv4OMLX9rsa5zCYCSwxCufUdEAiaYOIAxIL0n8lFSQAEckF1MbK01HqxjEFbvD-OdN_8:1ndrmr:JMV7RVV4emZIjp1p_6rr7Wsj9q69sZvPktwd_WItJrI","expire_date":"2022-04-25T11:00:49.010Z"}}]
+[
+  {
+    "model": "accounts.user",
+    "fields": {
+      "password": "pbkdf2_sha256$320000$2BsTIrakB585ujJ29Hm6Fu$EaflD02L5dK6zpxL6u82niPhLyOHRIgeAT/HJaTTiOo=",
+      "last_login": "2022-04-11T11:00:49.008Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-04-11T11:00:37.351Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 1,
+    "fields": {
+      "name": "McCormick Place",
+      "city": "Chicago",
+      "room_count": 55,
+      "created": "2022-04-11T11:25:28.489Z",
+      "updated": "2022-04-11T11:25:28.489Z",
+      "state": 14
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 2,
+    "fields": {
+      "name": "Orange County Convention Center",
+      "city": "Orlando",
+      "room_count": 54,
+      "created": "2022-04-11T11:25:52.636Z",
+      "updated": "2022-04-11T11:25:52.636Z",
+      "state": 10
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 3,
+    "fields": {
+      "name": "Las Vegas Convention Center",
+      "city": "Las Vegas",
+      "room_count": 55,
+      "created": "2022-04-11T11:26:08.900Z",
+      "updated": "2022-04-11T11:26:08.900Z",
+      "state": 23
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 4,
+    "fields": {
+      "name": "Georgia World Congress Center",
+      "city": "Altlanta",
+      "room_count": 50,
+      "created": "2022-04-11T11:26:25.978Z",
+      "updated": "2022-04-11T11:26:25.978Z",
+      "state": 11
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 5,
+    "fields": {
+      "name": "New Orleans Morial Convention Center",
+      "city": "New Orleans",
+      "room_count": 52,
+      "created": "2022-04-11T11:26:42.465Z",
+      "updated": "2022-04-11T11:26:42.465Z",
+      "state": 19
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 6,
+    "fields": {
+      "name": "America's Center",
+      "city": "St. Louis",
+      "room_count": 49,
+      "created": "2022-04-11T11:27:00.425Z",
+      "updated": "2022-04-11T11:27:00.425Z",
+      "state": 38
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 7,
+    "fields": {
+      "name": "San Diego Convention Center",
+      "city": "San Diego",
+      "room_count": 48,
+      "created": "2022-04-11T11:27:15.605Z",
+      "updated": "2022-04-11T11:27:15.605Z",
+      "state": 5
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 8,
+    "fields": {
+      "name": "Colorado Convention Center",
+      "city": "Denver",
+      "room_count": 47,
+      "created": "2022-04-11T11:27:31.906Z",
+      "updated": "2022-04-11T11:27:31.906Z",
+      "state": 6
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 9,
+    "fields": {
+      "name": "Music City Center",
+      "city": "Nashville",
+      "room_count": 44,
+      "created": "2022-04-11T11:27:43.328Z",
+      "updated": "2022-04-11T11:27:43.328Z",
+      "state": 43
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 10,
+    "fields": {
+      "name": "Kay Bailey Hutchison Convention Center",
+      "city": "Dallas",
+      "room_count": 48,
+      "created": "2022-04-11T11:28:03Z",
+      "updated": "2022-04-11T11:28:03Z",
+      "state": 44
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 11,
+    "fields": {
+      "name": "Moscone Convention Center",
+      "city": "San Francisco",
+      "room_count": 40,
+      "created": "2022-04-11T11:28:17.118Z",
+      "updated": "2022-04-11T11:28:17.118Z",
+      "state": 5
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 12,
+    "fields": {
+      "name": "Charlotte Convention Center",
+      "city": "Charlotte",
+      "room_count": 33,
+      "created": "2022-04-11T11:28:37.233Z",
+      "updated": "2022-04-11T11:28:37.233Z",
+      "state": 28
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 13,
+    "fields": {
+      "name": "Tampa Convention Center",
+      "city": "Tampa",
+      "room_count": 33,
+      "created": "2022-04-11T11:28:48.119Z",
+      "updated": "2022-04-11T11:28:48.119Z",
+      "state": 10
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 14,
+    "fields": {
+      "name": "Hynes Convention Center",
+      "city": "Boston",
+      "room_count": 30,
+      "created": "2022-04-11T11:29:00.367Z",
+      "updated": "2022-04-11T11:29:00.367Z",
+      "state": 34
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 15,
+    "fields": {
+      "name": "Wisconsin Center",
+      "city": "Milwaukee",
+      "room_count": 29,
+      "created": "2022-04-11T11:29:21.428Z",
+      "updated": "2022-04-11T11:29:21.428Z",
+      "state": 50
+    }
+  },
+  {
+    "model": "events.location",
+    "pk": 16,
+    "fields": {
+      "name": "Roland E. Powell Convention Center",
+      "city": "Ocean City",
+      "room_count": 28,
+      "created": "2022-04-11T11:29:37.738Z",
+      "updated": "2022-04-11T11:29:37.738Z",
+      "state": 33
+    }
+  },
+  {
+    "model": "events.conference",
+    "pk": 1,
+    "fields": {
+      "name": "Oracle Developer Live",
+      "starts": "2022-03-22T00:00:00Z",
+      "ends": "2022-03-24T23:59:59Z",
+      "description": "Oracle Developer Live is a series of free virtual events that feature keynotes, technical sessions, hands-on labs, demos, and panels and participation in a live Q&A with experts. Subject matter experts from the Java Platform Group at Oracle will deliver technical content that helps developers create the next generation of rich, scalable, and secure enterprise applications for a wide variety of environments.",
+      "created": "2022-04-11T11:32:05.303Z",
+      "updated": "2022-04-11T11:34:06.152Z",
+      "max_presentations": 100,
+      "max_attendees": 15000,
+      "location": 11
+    }
+  },
+  {
+    "model": "events.conference",
+    "pk": 2,
+    "fields": {
+      "name": "Microsoft Ignite",
+      "starts": "2022-04-21T00:00:00Z",
+      "ends": "2022-04-24T23:59:59Z",
+      "description": "The Microsoft Ignite conference is Microsoft’s annual meeting specifically for enterprise professionals, services, and products Ignite offers its 25,000+ attendees priority access to technical training, new and innovative tools, and opportunities to network with peers and experts in the tech community.",
+      "created": "2022-04-11T11:32:59.035Z",
+      "updated": "2022-04-11T11:34:11.825Z",
+      "max_presentations": 140,
+      "max_attendees": 30000,
+      "location": 4
+    }
+  },
+  {
+    "model": "events.conference",
+    "pk": 3,
+    "fields": {
+      "name": "DEVintersection",
+      "starts": "2022-04-05T00:00:00Z",
+      "ends": "2022-04-07T23:59:59Z",
+      "description": "DEVintersection is an annual conference led by top Microsoft experts as they dive deep into new software developments and its intersection with technology. Featuring 100+ in-depth sessions presented by Microsoft engineers and other industry leaders, the 2022 conference will cover topics such as Azure, SQL Server, AI, Big Data, Machine Learning, and more.",
+      "created": "2022-04-11T11:34:00.678Z",
+      "updated": "2022-04-11T11:34:00.678Z",
+      "max_presentations": 120,
+      "max_attendees": 25000,
+      "location": 9
+    }
+  },
+  {
+    "model": "events.conference",
+    "pk": 4,
+    "fields": {
+      "name": "DrupalCon",
+      "starts": "2022-04-25T00:00:00Z",
+      "ends": "2022-04-28T23:59:59Z",
+      "description": "DrupalCon is the international educational event that unites the people who use, develop, design and support the Drupal platform. It is the premiere conference to hone your Drupal skills, connect with the community, and learn about the future of web technologies happening with Drupal.",
+      "created": "2022-04-11T11:34:49.911Z",
+      "updated": "2022-04-11T11:34:49.911Z",
+      "max_presentations": 80,
+      "max_attendees": 10000,
+      "location": 10
+    }
+  },
+  {
+    "model": "events.conference",
+    "pk": 5,
+    "fields": {
+      "name": "UXDX 2022",
+      "starts": "2022-05-24T00:00:00Z",
+      "ends": "2022-05-26T23:59:59Z",
+      "description": "UXDX, the fastest-growing product development conference in Europe, is hosting its inaugural UXDX USA conference in May 2022 along with events in APAC in June and EMEA in October. The mission of UXDX USA is to deliver real change in teams, helping you take a full-systems view of software development.",
+      "created": "2022-04-11T11:35:41.141Z",
+      "updated": "2022-04-11T11:35:41.141Z",
+      "max_presentations": 60,
+      "max_attendees": 10000,
+      "location": 3
+    }
+  },
+  {
+    "model": "events.conference",
+    "pk": 6,
+    "fields": {
+      "name": "Open Source Summit",
+      "starts": "2022-06-21T00:00:00Z",
+      "ends": "2022-06-24T23:59:59Z",
+      "description": "Open Source Summit is North America and Europe’s premier vendor-neutral conference for open source developers and technologists to collaborate, share information, and learn about the latest technologies and innovations across open source.",
+      "created": "2022-04-11T11:36:21.783Z",
+      "updated": "2022-04-11T11:36:21.783Z",
+      "max_presentations": 80,
+      "max_attendees": 8000,
+      "location": 7
+    }
+  },
+  {
+    "model": "events.conference",
+    "pk": 7,
+    "fields": {
+      "name": "DevOpsCon",
+      "starts": "2022-09-27T00:00:00Z",
+      "ends": "2022-09-30T23:59:59Z",
+      "description": "DevOps Con is noted as “The Conference” for Continuous Delivery, Microservices, Docker, Clouds, and Lean Business. DevOps Con is held in both German and English. This year’s event is again hybrid, so it’s your choice whether to attend online or in person in New York.",
+      "created": "2022-04-11T11:36:56.878Z",
+      "updated": "2022-04-11T11:36:56.878Z",
+      "max_presentations": 60,
+      "max_attendees": 8000,
+      "location": 13
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "accounts", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "attendees", "model": "attendee" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "attendees", "model": "badge" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "events", "model": "state" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "events", "model": "location" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "events", "model": "conference" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "presentations", "model": "status" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "presentations", "model": "presentation" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ianvxef54ni5u9iy6zx5b5ae7de4fev0",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pBCgaEu3fcMzQwzStVAUtqV8e7apAvd_vfef6kJtzVPW5NlmlmdlVGn340wPaTsgO9YblWnWtZlJr0r-qBNj5XleTncv4OMLX9rsa5zCYCSwxCufUdEAiaYOIAxIL0n8lFSQAEckF1MbK01HqxjEFbvD-OdN_8:1ndrmr:JMV7RVV4emZIjp1p_6rr7Wsj9q69sZvPktwd_WItJrI",
+      "expire_date": "2022-04-25T11:00:49.010Z"
+    }
+  }
+]
