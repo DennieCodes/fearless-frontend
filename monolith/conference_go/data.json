@@ -1,17 +1,18 @@
 [
   {
     "model": "accounts.user",
+    "pk": 2,
     "fields": {
       "password": "pbkdf2_sha256$320000$2BsTIrakB585ujJ29Hm6Fu$EaflD02L5dK6zpxL6u82niPhLyOHRIgeAT/HJaTTiOo=",
-      "last_login": "2022-04-11T11:00:49.008Z",
+      "last_login": "2023-07-27T15:27:49.943Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
       "last_name": "",
-      "email": "",
       "is_staff": true,
       "is_active": true,
       "date_joined": "2022-04-11T11:00:37.351Z",
+      "email": "",
       "groups": [],
       "user_permissions": []
     }
@@ -24,7 +25,8 @@
       "city": "Chicago",
       "room_count": 55,
       "created": "2022-04-11T11:25:28.489Z",
-      "updated": "2022-04-11T11:25:28.489Z",
+      "updated": "2023-07-27T15:37:18.202Z",
+      "picture_url": "https://images.pexels.com/photos/3347244/pexels-photo-3347244.jpeg",
       "state": 14
     }
   },
@@ -36,7 +38,8 @@
       "city": "Orlando",
       "room_count": 54,
       "created": "2022-04-11T11:25:52.636Z",
-      "updated": "2022-04-11T11:25:52.636Z",
+      "updated": "2023-07-27T15:37:19.885Z",
+      "picture_url": "https://images.pexels.com/photos/9844312/pexels-photo-9844312.jpeg",
       "state": 10
     }
   },
@@ -48,7 +51,8 @@
       "city": "Las Vegas",
       "room_count": 55,
       "created": "2022-04-11T11:26:08.900Z",
-      "updated": "2022-04-11T11:26:08.900Z",
+      "updated": "2023-07-27T15:37:17.796Z",
+      "picture_url": "https://images.pexels.com/photos/17230005/pexels-photo-17230005.jpeg",
       "state": 23
     }
   },
@@ -60,7 +64,8 @@
       "city": "Altlanta",
       "room_count": 50,
       "created": "2022-04-11T11:26:25.978Z",
-      "updated": "2022-04-11T11:26:25.978Z",
+      "updated": "2023-07-27T15:37:16.770Z",
+      "picture_url": "https://images.pexels.com/photos/13801653/pexels-photo-13801653.jpeg",
       "state": 11
     }
   },
@@ -72,7 +77,8 @@
       "city": "New Orleans",
       "room_count": 52,
       "created": "2022-04-11T11:26:42.465Z",
-      "updated": "2022-04-11T11:26:42.465Z",
+      "updated": "2023-07-27T15:37:19.467Z",
+      "picture_url": "https://images.pexels.com/photos/17245090/pexels-photo-17245090.jpeg",
       "state": 19
     }
   },
@@ -84,7 +90,8 @@
       "city": "St. Louis",
       "room_count": 49,
       "created": "2022-04-11T11:27:00.425Z",
-      "updated": "2022-04-11T11:27:00.425Z",
+      "updated": "2023-07-27T15:37:15.539Z",
+      "picture_url": "https://images.pexels.com/photos/17300611/pexels-photo-17300611.jpeg",
       "state": 38
     }
   },
@@ -96,7 +103,8 @@
       "city": "San Diego",
       "room_count": 48,
       "created": "2022-04-11T11:27:15.605Z",
-      "updated": "2022-04-11T11:27:15.605Z",
+      "updated": "2023-07-27T15:37:20.864Z",
+      "picture_url": "https://images.pexels.com/photos/13265924/pexels-photo-13265924.jpeg",
       "state": 5
     }
   },
@@ -108,7 +116,8 @@
       "city": "Denver",
       "room_count": 47,
       "created": "2022-04-11T11:27:31.906Z",
-      "updated": "2022-04-11T11:27:31.906Z",
+      "updated": "2023-07-27T15:37:16.357Z",
+      "picture_url": "https://images.pexels.com/photos/3751010/pexels-photo-3751010.jpeg",
       "state": 6
     }
   },
@@ -120,7 +129,8 @@
       "city": "Nashville",
       "room_count": 44,
       "created": "2022-04-11T11:27:43.328Z",
-      "updated": "2022-04-11T11:27:43.328Z",
+      "updated": "2023-07-27T15:37:18.919Z",
+      "picture_url": "https://images.pexels.com/photos/3722923/pexels-photo-3722923.jpeg",
       "state": 43
     }
   },
@@ -132,7 +142,8 @@
       "city": "Dallas",
       "room_count": 48,
       "created": "2022-04-11T11:28:03Z",
-      "updated": "2022-04-11T11:28:03Z",
+      "updated": "2023-07-27T15:37:17.485Z",
+      "picture_url": "https://images.pexels.com/photos/2051002/pexels-photo-2051002.jpeg",
       "state": 44
     }
   },
@@ -144,7 +155,8 @@
       "city": "San Francisco",
       "room_count": 40,
       "created": "2022-04-11T11:28:17.118Z",
-      "updated": "2022-04-11T11:28:17.118Z",
+      "updated": "2023-07-27T15:37:18.529Z",
+      "picture_url": "https://images.pexels.com/photos/15976800/pexels-photo-15976800.jpeg",
       "state": 5
     }
   },
@@ -156,7 +168,8 @@
       "city": "Charlotte",
       "room_count": 33,
       "created": "2022-04-11T11:28:37.233Z",
-      "updated": "2022-04-11T11:28:37.233Z",
+      "updated": "2023-07-27T15:37:15.950Z",
+      "picture_url": "https://images.pexels.com/photos/13464409/pexels-photo-13464409.jpeg",
       "state": 28
     }
   },
@@ -168,7 +181,8 @@
       "city": "Tampa",
       "room_count": 33,
       "created": "2022-04-11T11:28:48.119Z",
-      "updated": "2022-04-11T11:28:48.119Z",
+      "updated": "2023-07-27T15:37:21.277Z",
+      "picture_url": "https://images.pexels.com/photos/208643/pexels-photo-208643.jpeg",
       "state": 10
     }
   },
@@ -180,7 +194,8 @@
       "city": "Boston",
       "room_count": 30,
       "created": "2022-04-11T11:29:00.367Z",
-      "updated": "2022-04-11T11:29:00.367Z",
+      "updated": "2023-07-27T15:37:17.177Z",
+      "picture_url": "https://images.pexels.com/photos/17152465/pexels-photo-17152465.jpeg",
       "state": 34
     }
   },
@@ -192,7 +207,8 @@
       "city": "Milwaukee",
       "room_count": 29,
       "created": "2022-04-11T11:29:21.428Z",
-      "updated": "2022-04-11T11:29:21.428Z",
+      "updated": "2023-07-27T15:37:21.683Z",
+      "picture_url": "https://images.pexels.com/photos/290144/pexels-photo-290144.jpeg",
       "state": 50
     }
   },
@@ -204,7 +220,8 @@
       "city": "Ocean City",
       "room_count": 28,
       "created": "2022-04-11T11:29:37.738Z",
-      "updated": "2022-04-11T11:29:37.738Z",
+      "updated": "2023-07-27T15:37:20.456Z",
+      "picture_url": "https://images.pexels.com/photos/1878293/pexels-photo-1878293.jpeg",
       "state": 33
     }
   },
@@ -315,62 +332,67 @@
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 1,
     "fields": { "app_label": "accounts", "model": "user" }
   },
   {
     "model": "contenttypes.contenttype",
-    "fields": { "app_label": "attendees", "model": "attendee" }
-  },
-  {
-    "model": "contenttypes.contenttype",
-    "fields": { "app_label": "attendees", "model": "badge" }
-  },
-  {
-    "model": "contenttypes.contenttype",
+    "pk": 2,
     "fields": { "app_label": "events", "model": "state" }
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 3,
     "fields": { "app_label": "events", "model": "location" }
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 4,
     "fields": { "app_label": "events", "model": "conference" }
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 5,
     "fields": { "app_label": "presentations", "model": "status" }
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 6,
     "fields": { "app_label": "presentations", "model": "presentation" }
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 7,
     "fields": { "app_label": "admin", "model": "logentry" }
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 8,
     "fields": { "app_label": "auth", "model": "permission" }
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 9,
     "fields": { "app_label": "auth", "model": "group" }
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 10,
     "fields": { "app_label": "contenttypes", "model": "contenttype" }
   },
   {
     "model": "contenttypes.contenttype",
+    "pk": 11,
     "fields": { "app_label": "sessions", "model": "session" }
   },
   {
-    "model": "sessions.session",
-    "pk": "ianvxef54ni5u9iy6zx5b5ae7de4fev0",
-    "fields": {
-      "session_data": ".eJxVjEEOwiAQRe_C2pBCgaEu3fcMzQwzStVAUtqV8e7apAvd_vfef6kJtzVPW5NlmlmdlVGn340wPaTsgO9YblWnWtZlJr0r-qBNj5XleTncv4OMLX9rsa5zCYCSwxCufUdEAiaYOIAxIL0n8lFSQAEckF1MbK01HqxjEFbvD-OdN_8:1ndrmr:JMV7RVV4emZIjp1p_6rr7Wsj9q69sZvPktwd_WItJrI",
-      "expire_date": "2022-04-25T11:00:49.010Z"
-    }
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": { "app_label": "attendees", "model": "attendee" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": { "app_label": "attendees", "model": "badge" }
   }
 ]
