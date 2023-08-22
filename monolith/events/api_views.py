@@ -9,7 +9,7 @@ from .models import Conference, Location, State
 
 class LocationListEncoder(ModelEncoder):
     model = Location
-    properties = ["name"]
+    properties = ["id", "name", "picture_url"]
 
 
 class LocationDetailEncoder(ModelEncoder):
@@ -29,7 +29,7 @@ class LocationDetailEncoder(ModelEncoder):
 
 class ConferenceListEncoder(ModelEncoder):
     model = Conference
-    properties = ["name"]
+    properties = ["id", "name"]
 
 
 class ConferenceDetailEncoder(ModelEncoder):
@@ -250,4 +250,35 @@ def api_show_location(request, pk):
             location,
             encoder=LocationDetailEncoder,
             safe=False,
+        )
+
+@require_http_methods(["GET"])
+def api_list_states(request):
+    """
+    Returns a list of all of the states in the database.
+
+    This should return a dictionary with a single key "states"
+    which is a list of dictionaries containing the state's
+    name and abbreviation.
+
+    {
+        "states": [
+            {
+                "name": the state's name,
+                "abbreviation": the state's two-letter abbreviation,
+            },
+            ...
+        ]
+    }
+    """
+    if request.method == "GET":
+        state_list = []
+
+        for state in State.objects.all().order_by("name"):
+            state_list.append(
+                {"name": state.name, "abbreviation": state.abbreviation}
+            )
+
+        return JsonResponse(
+            {"states": state_list},
         )

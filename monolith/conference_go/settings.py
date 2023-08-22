@@ -39,6 +39,7 @@ AUTH_USER_MODEL = "accounts.User"
 # Application definition
 
 INSTALLED_APPS = [
+    "djwto",
     "accounts.apps.AccountsConfig",
     "events.apps.EventsConfig",
     "presentations.apps.PresentationsConfig",
@@ -64,6 +65,14 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
+
+CSRF_TRUSTED_ORIGINS = ["http://localhost:3000"]
+
+CORS_ALLOW_CREDENTIALS = True
+
+DJWTO_MODE = "TWO-COOKIES"
+
+DJWTO_ACCESS_TOKEN_LIFETIME = None
 
 ROOT_URLCONF = "conference_go.urls"
 
