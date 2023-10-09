@@ -19,6 +19,10 @@ window.addEventListener('DOMContentLoaded', async () => {
 				const details = await detailResponse.json();
 				const descriptionTag = document.querySelector('.card-text');
 				descriptionTag.innerHTML = details.conference.description;
+
+				// console.log('Details: ', details.conference.location.picture_url);
+				const imageTag = document.querySelector('.card-img-top');
+				imageTag.src = details.conference.location.picture_url;
 			}
 		}
 	} catch (e) {
