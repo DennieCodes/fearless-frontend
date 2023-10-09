@@ -16,6 +16,20 @@ function createCard(title, description, pictureUrl, start, end, subtitle) {
   `;
 }
 
+function createErrorAlert(responseError) {
+	let message = responseError
+		? 'The network returned an error'
+		: 'There was a program error';
+	const html = `
+    <div class="alert alert-danger" role="alert">
+      ${message}
+    </div>
+  `;
+
+	const container = Document.querySelector('.container');
+	container.innerHTML += html;
+}
+
 window.addEventListener('DOMContentLoaded', async () => {
 	const url = 'http://localhost:8000/api/conferences/';
 
@@ -23,7 +37,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 		const response = await fetch(url);
 
 		if (!response.ok) {
-			console.dir(response);
+			createErrorAlert(true);
 		} else {
 			const data = await response.json();
 
@@ -60,6 +74,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 			}
 		}
 	} catch (e) {
+		createErrorAlert(false);
 		console.error(e);
 	}
 });
