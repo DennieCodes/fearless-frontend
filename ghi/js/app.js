@@ -1,3 +1,15 @@
+function createCard(title, description, pictureUrl) {
+	return `
+    <div class="card mb-5 shadow">
+      <img src="${pictureUrl}" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">${title}</h5>
+        <p class="card-text">${description}</p>
+      </div>
+    </div>
+  `;
+}
+
 window.addEventListener('DOMContentLoaded', async () => {
 	const url = 'http://localhost:8000/api/conferences/';
 
@@ -9,23 +21,27 @@ window.addEventListener('DOMContentLoaded', async () => {
 		} else {
 			const data = await response.json();
 
-			const conference = data.conferences[0];
-			const nameTag = document.querySelector('.card-title');
-			nameTag.innerHTML = conference.name;
+			let column_count = 0;
 
-			const detailUrl = `http://localhost:8000${conference.href}`;
-			const detailResponse = await fetch(detailUrl);
-			if (detailResponse.ok) {
-				const details = await detailResponse.json();
-				const descriptionTag = document.querySelector('.card-text');
-				descriptionTag.innerHTML = details.conference.description;
+			for (let conference of data.conferences) {
+				const detailUrl = `http://localhost:8000${conference.href}`;
+				const detailResponse = await fetch(detailUrl);
 
-				// console.log('Details: ', details.conference.location.picture_url);
-				const imageTag = document.querySelector('.card-img-top');
-				imageTag.src = details.conference.location.picture_url;
+				if (detailResponse.ok) {
+					const details = await detailResponse.json();
+					const title = details.conference.name;
+					const description = details.conference.description;
+					const pictureUrl = details.conference.location.picture_url;
+					const html = createCard(title, description, pictureUrl);
+					const columns = document.querySelectorAll('.col');
+
+					column_count = column_count > 2 ? 0 : column_count;
+					columns[column_count].innerHTML += html;
+					column_count++;
+				}
 			}
 		}
 	} catch (e) {
-		console.log('Error');
+		console.error(e);
 	}
 });
