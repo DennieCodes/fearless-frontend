@@ -1,10 +1,15 @@
-function createCard(title, description, pictureUrl) {
+function createCard(title, description, pictureUrl, start, end) {
 	return `
     <div class="card mb-5 shadow">
       <img src="${pictureUrl}" class="card-img-top">
       <div class="card-body">
         <h5 class="card-title">${title}</h5>
         <p class="card-text">${description}</p>
+      </div>
+      <div class="card-footer">
+        <p>
+          ${start} - ${end}
+        </p>
       </div>
     </div>
   `;
@@ -29,10 +34,16 @@ window.addEventListener('DOMContentLoaded', async () => {
 
 				if (detailResponse.ok) {
 					const details = await detailResponse.json();
-					const title = details.conference.name;
-					const description = details.conference.description;
-					const pictureUrl = details.conference.location.picture_url;
-					const html = createCard(title, description, pictureUrl);
+
+					const { conference } = details;
+					const { starts, ends } = conference;
+
+					let start = new Date(starts).toLocaleDateString('en-US');
+					let end = new Date(ends).toLocaleDateString('en-US');
+					const { name, description, location } = conference;
+
+					const pictureUrl = location.picture_url;
+					const html = createCard(name, description, pictureUrl, start, end);
 					const columns = document.querySelectorAll('.col');
 
 					column_count = column_count > 2 ? 0 : column_count;
