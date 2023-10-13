@@ -5,6 +5,7 @@ import LocationForm from './LocationForm';
 import AttendeesList from './AttendeesList';
 import AttendConferenceForm from './AttendConferenceForm';
 import PresentationForm from './PresentationForm';
+import MainPage from './MainPage';
 
 function App(props) {
 	if (props.attendees === undefined) {
@@ -16,6 +17,7 @@ function App(props) {
 				<Nav />
 				<div className="container">
 					<Routes>
+						<Route exact index element={<MainPage />} />
 						<Route exact path="/conferences/new" element={<ConferenceForm />} />
 
 						<Route
