@@ -1,10 +1,12 @@
+import { NavLink } from 'react-router-dom';
+
 function Nav() {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-light">
 			<div className="container-fluid">
-				<a className="navbar-brand" href="index.html">
+				<NavLink className="navbar-brand" to="/">
 					Conference GO!
-				</a>
+				</NavLink>
 				<button
 					className="navbar-toggler"
 					type="button"
@@ -19,40 +21,36 @@ function Nav() {
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 						<li className="nav-item">
-							<a
-								className="nav-link active"
-								aria-current="page"
-								href="index.html"
-							>
+							<NavLink className="nav-link" aria-current="page" to="/">
 								Home
-							</a>
+							</NavLink>
 						</li>
 						<li className="nav-item">
-							<a
+							<NavLink
 								className="nav-link"
 								aria-current="page"
-								href="new-location.html"
+								to="/locations/new"
 							>
 								New location
-							</a>
+							</NavLink>
 						</li>
 						<li className="nav-item">
-							<a
-								className="nav-link active"
+							<NavLink
+								className="nav-link"
 								aria-current="page"
-								href="new-conference.html"
+								to="/conferences/new"
 							>
 								New conference
-							</a>
+							</NavLink>
 						</li>
 						<li className="nav-item">
-							<a
-								className="nav-link active"
+							<NavLink
+								className="nav-link"
 								aria-current="page"
-								href="new-presentation.html"
+								to="/attendees/new"
 							>
-								New presentation
-							</a>
+								New Attendees
+							</NavLink>
 						</li>
 					</ul>
 				</div>

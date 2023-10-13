@@ -11,9 +11,9 @@ function App(props) {
 	}
 	return (
 		<>
-			<Nav />
-			<div className="container">
-				<BrowserRouter>
+			<BrowserRouter>
+				<Nav />
+				<div className="container">
 					<Routes>
 						<Route exact path="/conferences/new" element={<ConferenceForm />} />
 
@@ -31,8 +31,8 @@ function App(props) {
 							element={<AttendeesList attendees={props.attendees} />}
 						/>
 					</Routes>
-				</BrowserRouter>
-			</div>
+				</div>
+			</BrowserRouter>
 		</>
 	);
 }
