@@ -52,6 +52,16 @@ function Nav() {
 								New Attendees
 							</NavLink>
 						</li>
+
+						<li className="nav-item">
+							<NavLink
+								className="nav-link"
+								aria-current="page"
+								to="/presentation/new"
+							>
+								New Presentation
+							</NavLink>
+						</li>
 					</ul>
 				</div>
 			</div>

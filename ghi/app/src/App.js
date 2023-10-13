@@ -4,6 +4,7 @@ import ConferenceForm from './ConferenceForm';
 import LocationForm from './LocationForm';
 import AttendeesList from './AttendeesList';
 import AttendConferenceForm from './AttendConferenceForm';
+import PresentationForm from './PresentationForm';
 
 function App(props) {
 	if (props.attendees === undefined) {
@@ -24,6 +25,12 @@ function App(props) {
 						/>
 
 						<Route exact path="/locations/new" element={<LocationForm />} />
+
+						<Route
+							exact
+							path="/presentation/new"
+							element={<PresentationForm />}
+						/>
 
 						<Route
 							exact
